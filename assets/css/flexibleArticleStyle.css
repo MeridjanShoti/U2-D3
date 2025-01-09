@@ -1,0 +1,25 @@
+article{
+    display: flex;
+    background-color: #FBF7E3;
+    border-radius: 2em;
+    padding: 1em;
+    gap: 1em;
+    align-items: flex-start;
+    text-overflow: hidden;
+}
+article img{
+    max-width: 50%;
+    max-height: max-content;
+}
+article div h2{
+    margin-top: 0;
+}
+@media screen and (max-width: 576px) {
+    article {
+        flex-direction: column-reverse;
+    }
+    article img {
+        width: 100%;
+        max-width: 100%;
+    }
+}
