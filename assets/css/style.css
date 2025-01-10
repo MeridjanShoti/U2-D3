@@ -7,7 +7,6 @@ h1, h2{
 }
 body{
     margin: 0;
-    width: 100%;
 }
 /* navbar css*/
 nav ul li {
@@ -60,6 +59,7 @@ nav ul li a img{
     color: #612406;
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 15px;
+    width: 25;
 }
 .productCard img {
 width: 100%;
@@ -76,6 +76,7 @@ button{
     justify-content: space-around;
     gap: 20px;
     margin-bottom: 20px;
+    margin-inline: 20px;
 }
 .price{
     font-size: 1.5em;
@@ -106,11 +107,15 @@ article div h2{
         width: 100%;
         max-width: 100%;
     }
+    header nav ul {
+        width: 100%;
+    }
 }
 /* generale */
 .container{
     display: flex;
     gap: 1em;
+    flex-wrap: wrap;
 }
 main{
     margin: 1em;
